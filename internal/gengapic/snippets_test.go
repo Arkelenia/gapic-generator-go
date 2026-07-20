@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/googleapis/gapic-generator-go/internal/pbinfo"
-	"github.com/googleapis/gapic-generator-go/internal/snippets"
-	"github.com/googleapis/gapic-generator-go/internal/testing/sample"
-	"github.com/googleapis/gapic-generator-go/internal/txtdiff"
+	"github.com/Arkelenia/gapic-generator-go/internal/pbinfo"
+	"github.com/Arkelenia/gapic-generator-go/internal/snippets"
+	"github.com/Arkelenia/gapic-generator-go/internal/testing/sample"
+	"github.com/Arkelenia/gapic-generator-go/internal/txtdiff"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"
 )

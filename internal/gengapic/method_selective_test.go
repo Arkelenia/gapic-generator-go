@@ -17,7 +17,7 @@ package gengapic
 import (
 	"testing"
 
-	"github.com/googleapis/gapic-generator-go/internal/pbinfo"
+	"github.com/Arkelenia/gapic-generator-go/internal/pbinfo"
 	"google.golang.org/genproto/googleapis/api/annotations"
 	"google.golang.org/genproto/googleapis/api/serviceconfig"
 	"google.golang.org/protobuf/proto"

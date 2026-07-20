@@ -19,9 +19,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/googleapis/gapic-generator-go/internal/license"
-	"github.com/googleapis/gapic-generator-go/internal/pbinfo"
-	"github.com/googleapis/gapic-generator-go/internal/printer"
+	"github.com/Arkelenia/gapic-generator-go/internal/license"
+	"github.com/Arkelenia/gapic-generator-go/internal/pbinfo"
+	"github.com/Arkelenia/gapic-generator-go/internal/printer"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

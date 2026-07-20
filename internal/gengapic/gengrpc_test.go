@@ -19,9 +19,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	conf "github.com/googleapis/gapic-generator-go/internal/grpc_service_config"
-	"github.com/googleapis/gapic-generator-go/internal/pbinfo"
-	"github.com/googleapis/gapic-generator-go/internal/txtdiff"
+	conf "github.com/Arkelenia/gapic-generator-go/internal/grpc_service_config"
+	"github.com/Arkelenia/gapic-generator-go/internal/pbinfo"
+	"github.com/Arkelenia/gapic-generator-go/internal/txtdiff"
 	"google.golang.org/genproto/googleapis/api/annotations"
 	"google.golang.org/genproto/googleapis/api/serviceconfig"
 	"google.golang.org/protobuf/encoding/protojson"
