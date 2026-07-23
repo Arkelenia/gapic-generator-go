@@ -18,8 +18,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/googleapis/gapic-generator-go/internal/snippets/metadata"
-	"github.com/googleapis/gapic-generator-go/internal/testing/sample"
+	"github.com/Arkelenia/gapic-generator-go/internal/snippets/metadata"
+	"github.com/Arkelenia/gapic-generator-go/internal/testing/sample"
 	"google.golang.org/protobuf/proto"
 )
 

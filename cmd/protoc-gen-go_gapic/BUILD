@@ -4,7 +4,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "protoc-gen-go_gapic_lib",
     srcs = ["main.go"],
-    importpath = "github.com/googleapis/gapic-generator-go/cmd/protoc-gen-go_gapic",
+    importpath = "github.com/Arkelenia/gapic-generator-go/cmd/protoc-gen-go_gapic",
     visibility = ["//visibility:private"],
     deps = [
         "//internal/gengapic",

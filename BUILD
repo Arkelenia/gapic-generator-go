@@ -1,6 +1,6 @@
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
-# gazelle:prefix github.com/googleapis/gapic-generator-go
+# gazelle:prefix github.com/Arkelenia/gapic-generator-go
 gazelle(name = "gazelle")
 
 # Note: Direct gazelle to resolve common proto imports to googleapis.

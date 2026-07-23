@@ -6,7 +6,7 @@ go_library(
         "pbinfo.go",
         "prim2go.go",
     ],
-    importpath = "github.com/googleapis/gapic-generator-go/internal/pbinfo",
+    importpath = "github.com/Arkelenia/gapic-generator-go/internal/pbinfo",
     visibility = ["//:__subpackages__"],
     deps = [
         "@org_golang_google_protobuf//proto",

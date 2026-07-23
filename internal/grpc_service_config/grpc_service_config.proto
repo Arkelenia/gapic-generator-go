@@ -21,7 +21,7 @@ import "google/protobuf/duration.proto";
 import "google/protobuf/wrappers.proto";
 import "google/rpc/code.proto";
 
-option go_package = "github.com/googleapis/gapic-generator-go/internal/grpc_service_config";
+option go_package = "github.com/Arkelenia/gapic-generator-go/internal/grpc_service_config";
 
 // Configuration for a method.
 message MethodConfig {

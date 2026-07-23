@@ -403,7 +403,7 @@ def com_googleapis_gapic_generator_go_repositories():
     )
     go_repository(
         name = "com_google_cloud_go",
-        # This is part of a fix for https://github.com/googleapis/gapic-generator-go/issues/387.
+        # This is part of a fix for https://github.com/Arkelenia/gapic-generator-go/issues/387.
         build_extra_args = ["-exclude=longrunning/autogen/info.go"],
         importpath = "cloud.google.com/go",
         sum = "h1:2NAUJwPR47q+E35uaJeYoNhuNEM9kM8SjgRgdeOJUSE=",
@@ -1301,7 +1301,7 @@ def com_googleapis_gapic_generator_go_repositories():
         version = "v1.82.0",
     )
 
-    #keep: frozen due to https://github.com/googleapis/gapic-generator-go/issues/1608
+    #keep: frozen due to https://github.com/Arkelenia/gapic-generator-go/issues/1608
     go_repository(
         name = "org_golang_google_protobuf",
         build_directives = [
@@ -1312,7 +1312,7 @@ def com_googleapis_gapic_generator_go_repositories():
         ],
         importpath = "google.golang.org/protobuf",
         sum = "h1:8Ar7bF+apOIoThw1EdZl0p1oWvMqTHmpA2fRTyZO8io=",
-        # TODO(https://github.com/googleapis/gapic-generator-go/issues/1608): Don't hard-code old version
+        # TODO(https://github.com/Arkelenia/gapic-generator-go/issues/1608): Don't hard-code old version
         version = "v1.35.2",
     )
     go_repository(

@@ -1,4 +1,4 @@
-module github.com/googleapis/gapic-generator-go
+module github.com/Arkelenia/gapic-generator-go
 
 go 1.25.0
 

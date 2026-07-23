@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/googleapis/gapic-generator-go/internal/pbinfo"
+	"github.com/Arkelenia/gapic-generator-go/internal/pbinfo"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

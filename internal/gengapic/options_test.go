@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	conf "github.com/googleapis/gapic-generator-go/internal/grpc_service_config"
+	conf "github.com/Arkelenia/gapic-generator-go/internal/grpc_service_config"
 )
 
 func TestParseOptions(t *testing.T) {

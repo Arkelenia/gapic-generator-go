@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	"github.com/ghodss/yaml"
-	conf "github.com/googleapis/gapic-generator-go/internal/grpc_service_config"
+	conf "github.com/Arkelenia/gapic-generator-go/internal/grpc_service_config"
 	"google.golang.org/genproto/googleapis/api/serviceconfig"
 	"google.golang.org/protobuf/encoding/protojson"
 )

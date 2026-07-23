@@ -3,6 +3,6 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "printer",
     srcs = ["printer.go"],
-    importpath = "github.com/googleapis/gapic-generator-go/internal/printer",
+    importpath = "github.com/Arkelenia/gapic-generator-go/internal/printer",
     visibility = ["//:__subpackages__"],
 )

@@ -1,7 +1,7 @@
 # API Client Generator for Go
 
-![latest release](https://img.shields.io/github/v/release/googleapis/gapic-generator-go)
-![Go version](https://img.shields.io/github/go-mod/go-version/googleapis/gapic-generator-go)
+![latest release](https://img.shields.io/github/v/release/Arkelenia/gapic-generator-go)
+![Go version](https://img.shields.io/github/go-mod/go-version/Arkelenia/gapic-generator-go)
 
 A generator for protocol buffer described APIs for and in Go.
 
@@ -19,13 +19,13 @@ Some areas we hope to improve over the old generator are:
 
 ## Installation
 
-`go install github.com/googleapis/gapic-generator-go/cmd/protoc-gen-go_gapic@latest`.
+`go install github.com/Arkelenia/gapic-generator-go/cmd/protoc-gen-go_gapic@latest`.
 If you are using Go 1.11 and see error `cannot find main module`, see this [FAQ page](https://github.com/golang/go/wiki/Modules#why-does-installing-a-tool-via-go-get-fail-with-error-cannot-find-main-module).
 
 Or to install from source:
 
 ```bash
-git pull https://github.com/googleapis/gapic-generator-go.git
+git pull https://github.com/Arkelenia/gapic-generator-go.git
 cd gapic-generator-go
 go install ./cmd/protoc-gen-go_gapic
 ```
@@ -117,7 +117,7 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 http_archive(
     name = "com_googleapis_gapic_generator_go",
     strip_prefix = "gapic-generator-go-main",
-    urls = ["https://github.com/googleapis/gapic-generator-go/archive/main.zip"],
+    urls = ["https://github.com/Arkelenia/gapic-generator-go/archive/main.zip"],
 )
 
 load("@com_googleapis_gapic_generator_go//:repositories.bzl", "com_googleapis_gapic_generator_go_repositories")
